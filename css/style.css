@@ -56,7 +56,12 @@ body {
   width: 100%;
   color: white;
   background-color: blueviolet;
-  font-size: 1.8rem;
+  font-size: 3rem;
+}
+
+#button button:hover {
+  cursor: pointer;
+  filter: brightness(1.6);
 }
 
 @keyframes pipe-animation {
